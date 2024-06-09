@@ -1,0 +1,28 @@
+h1 {
+    font-family: "Times New Roman", serif;
+    color: green;
+    background-color: pink;
+    text-align: center;
+}
+
+li {
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+#ingredients,
+#instructions {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+#ingredients {
+    background-color: #caaef7;
+    color: #4b366d;
+}
+
+#instructions {
+    background-color: hsl(120, 81%, 85%);
+    color: hsl(120, 36%, 24%);
+}
