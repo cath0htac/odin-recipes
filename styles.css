@@ -1,20 +1,41 @@
-h1 {
+body {
+    background-color: rgb(156, 189, 156, 0.5);
     font-family: "Times New Roman", serif;
+}
+
+h1 {
     color: green;
-    background-color: pink;
+    background-color: rgb(156, 189, 156, 0.5);
     text-align: center;
+    width: 400px;
+    padding: 10px;
+    margin: 5px auto;
+}
+
+img {
+    display: block;
+    height: 300px;
+    margin: 10px auto;
+    border-style: solid;
+    border-color: green;
 }
 
 li {
-    font-family: Tahoma, sans-serif;
-    font-size: 16px;
     font-weight: lighter;
+    padding: 5px;
+}
+
+#recipes {
+    width: 400px;
+    margin: 10px auto;
+    font-size: 18px;
 }
 
 #ingredients,
 #instructions {
-    font-family: Verdana, Tahoma, sans-serif;
     font-weight: lighter;
+    padding: 10px 5px;
+    text-align: center;
 }
 
 #ingredients {
@@ -23,6 +44,13 @@ li {
 }
 
 #instructions {
-    background-color: hsl(120, 81%, 85%);
-    color: hsl(120, 36%, 24%);
+    background-color: rgb(245, 185, 194);
+    color: #a84555;
+}
+
+.card {
+    background-color: white;
+    width: 800px;
+    margin: 20px auto;
+    padding: 10px;
 }
